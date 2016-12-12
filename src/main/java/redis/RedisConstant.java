@@ -11,6 +11,7 @@ public class RedisConstant {
 
     public static boolean testOnBorrow = false;
 
+    //格式固定
     public static String redisHosts = "192.168.14.155:6381;192.168.231.155:6379;192.168.14.153:6379;192.168.14.154:6379";
 
 }
