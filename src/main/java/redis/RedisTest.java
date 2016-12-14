@@ -9,6 +9,5 @@ public class RedisTest {
         RedisClient.getClient().setex("myTestKey", "testValue", 60 * 60);
         String value = RedisClient.getClient().get("myTestKey");
         System.out.println(value);
-        System.out.println("OK");
     }
 }
